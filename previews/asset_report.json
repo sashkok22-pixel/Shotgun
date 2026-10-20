@@ -1,0 +1,626 @@
+{
+  "asset": "Shotgun",
+  "minimum_blender_version": "5.0",
+  "animation": {
+    "frame_start": 1,
+    "frame_end": 96,
+    "fps": 24,
+    "duration_seconds": 4.0,
+    "cylinder_degrees_at_frames_1_40_80_96": [
+      0.0,
+      60.0,
+      120.0,
+      120.0
+    ]
+  },
+  "geometry": {
+    "source_blockout": {
+      "mesh_objects": 2,
+      "vertices": 3024,
+      "polygons": 3016,
+      "triangles": 5947
+    },
+    "finished_base_meshes": {
+      "mesh_objects": 109,
+      "vertices": 5150,
+      "polygons": 4713,
+      "triangles": 9855
+    },
+    "finished_evaluated_meshes": {
+      "mesh_objects": 109,
+      "vertices": 5680,
+      "polygons": 5372,
+      "triangles": 10915
+    },
+    "world_bounds": {
+      "min": [
+        -0.491,
+        -5.57,
+        -1.26371
+      ],
+      "max": [
+        0.491,
+        4.75,
+        1.26492
+      ]
+    },
+    "muzzle_crown_centers": [
+      [
+        -0.2,
+        4.59,
+        0.675505
+      ],
+      [
+        0.2,
+        4.59,
+        0.675505
+      ]
+    ],
+    "stock_cleanup": {
+      "vertices": 806,
+      "connected_components": 1,
+      "most_forward_y": -2.27,
+      "sphere_placeholder_removed": true,
+      "forward_guide_removed": true
+    }
+  },
+  "controls": {
+    "CTRL | cylinder": {
+      "action": "Shotgun | cylinder",
+      "samples": [
+        {
+          "frame": 1,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 18,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 23,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 40,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            1.047198,
+            0.0
+          ]
+        },
+        {
+          "frame": 63,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            1.047198,
+            0.0
+          ]
+        },
+        {
+          "frame": 80,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            2.094395,
+            0.0
+          ]
+        },
+        {
+          "frame": 96,
+          "location": [
+            0.0,
+            0.74,
+            0.09
+          ],
+          "rotation_radians": [
+            0.0,
+            2.094395,
+            0.0
+          ]
+        }
+      ],
+      "finite": true,
+      "changes_over_clip": true
+    },
+    "CTRL | fore-end": {
+      "action": "Shotgun | fore-end",
+      "samples": [
+        {
+          "frame": 1,
+          "location": [
+            0.0,
+            2.62,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 18,
+          "location": [
+            0.0,
+            2.62,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 23,
+          "location": [
+            0.0,
+            2.62,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 40,
+          "location": [
+            0.0,
+            2.566875,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 63,
+          "location": [
+            0.0,
+            2.62,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 80,
+          "location": [
+            0.0,
+            2.566875,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 96,
+          "location": [
+            0.0,
+            2.62,
+            -0.24
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      ],
+      "finite": true,
+      "changes_over_clip": true
+    },
+    "CTRL | trigger": {
+      "action": "Shotgun | trigger",
+      "samples": [
+        {
+          "frame": 1,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 18,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 23,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            -0.28,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 40,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 63,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            -0.28,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 80,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 96,
+          "location": [
+            0.0,
+            0.07,
+            -0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      ],
+      "finite": true,
+      "changes_over_clip": true
+    },
+    "CTRL | hammer": {
+      "action": "Shotgun | hammer",
+      "samples": [
+        {
+          "frame": 1,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 18,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            0.6,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 23,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            -0.12,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 40,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 63,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            -0.12,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 80,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 96,
+          "location": [
+            0.0,
+            -0.12,
+            0.32
+          ],
+          "rotation_radians": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      ],
+      "finite": true,
+      "changes_over_clip": true
+    },
+    "CTRL | recoil / whole prop": {
+      "action": "Shotgun | recoil / whole prop",
+      "samples": [
+        {
+          "frame": 1,
+          "location": [
+            0.0,
+            -2.0,
+            0.4
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 18,
+          "location": [
+            0.0,
+            -2.0,
+            0.4
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 23,
+          "location": [
+            0.0,
+            -2.27,
+            0.4
+          ],
+          "rotation_radians": [
+            0.065,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 40,
+          "location": [
+            0.0,
+            -2.0,
+            0.4
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 63,
+          "location": [
+            0.0,
+            -2.27,
+            0.4
+          ],
+          "rotation_radians": [
+            0.065,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 80,
+          "location": [
+            0.0,
+            -2.0,
+            0.4
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 96,
+          "location": [
+            0.0,
+            -2.0,
+            0.4
+          ],
+          "rotation_radians": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "finite": true,
+      "changes_over_clip": true
+    }
+  },
+  "packed_references": [
+    {
+      "name": "дробовик 1.jpg",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "packed": true
+    },
+    {
+      "name": "дробовик 2.jpg.001",
+      "dimensions": [
+        373,
+        536
+      ],
+      "packed": true
+    },
+    {
+      "name": "дробовик 3.jpg.001",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "packed": true
+    }
+  ],
+  "cameras": [
+    {
+      "name": "Camera | hero",
+      "projection": "ORTHO",
+      "ortho_scale": 12.7
+    },
+    {
+      "name": "Camera | mechanism",
+      "projection": "ORTHO",
+      "ortho_scale": 4.2
+    },
+    {
+      "name": "Camera | side",
+      "projection": "ORTHO",
+      "ortho_scale": 12.0
+    }
+  ],
+  "checks": {
+    "animation_range_correct": true,
+    "five_animated_controls": true,
+    "controls_finite_and_animated": true,
+    "three_packed_references": true,
+    "double_barrel_crowns_correct": true,
+    "stock_placeholders_removed": true,
+    "model_bounds_finite": true,
+    "all_model_meshes_have_materials": true,
+    "three_presentation_cameras": true,
+    "cylinder_steps_correct": true,
+    "passed": true
+  },
+  "active_camera": "Camera | hero",
+  "video_preview": {
+    "file": "Shotgun_Animation.mp4",
+    "codec_name": "h264",
+    "width": 640,
+    "height": 400,
+    "r_frame_rate": "24/1",
+    "duration": "4.000000",
+    "nb_read_frames": "96",
+    "verified": true
+  }
+}
